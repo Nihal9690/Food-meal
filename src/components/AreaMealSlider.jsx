@@ -28,7 +28,7 @@ const AreaMealSlider = () => {
     autoplaySpeed:1000,
     slidesToShow: 6,
     slidesToScroll: 6,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1000,
     cssEase: "linear",
 
     responsive: [
