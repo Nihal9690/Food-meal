@@ -145,7 +145,7 @@ const NavBar = () => {
               </div>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl ">Annapurna.com</a>
+          <a className="btn btn-ghost text-xl ">MealDB</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold">
@@ -156,7 +156,7 @@ const NavBar = () => {
               </Link>
               <Link to={"/meals"}>Meals</Link>
               <button className="btn btn-outline" onClick={() => navigate(-1)}>
-                Forward
+                Go Back
               </button>
             </div>
           </ul>
